@@ -4,7 +4,7 @@
 
 ## See the full documentation
 
-* [Documentation Link](https://serif-ui-components.netlify.app/)
+* [Documentation Link](https://github.com/serifcolakel/serif-ui-components/blob/main/DOCUMENTATION.md)
 
 ## Install
 
