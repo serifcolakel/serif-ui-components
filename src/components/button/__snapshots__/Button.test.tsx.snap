@@ -1,0 +1,144 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Button > render correctly with buttonType prop 1`] = `
+<div>
+  <button
+    class="flex flex-row gap-x-4 disabled:cursor-not-allowed items-center justify-center bg-gray-200 text-gray-600 border-gray-200 hover:bg-gray-300 text-base py-2 px-4 rounded-md"
+    type="button"
+  />
+</div>
+`;
+
+exports[`Button > render correctly with buttonType prop 2`] = `
+<div>
+  <button
+    class="flex flex-row gap-x-4 disabled:cursor-not-allowed items-center justify-center bg-violet-500 text-white border-violet-500 hover:bg-violet-600 text-base py-2 px-4 rounded-md"
+    type="button"
+  />
+</div>
+`;
+
+exports[`Button > render correctly with buttonType prop 3`] = `
+<div>
+  <button
+    class="flex flex-row gap-x-4 disabled:cursor-not-allowed items-center justify-center bg-yellow-500 text-white border-yellow-500 hover:bg-yellow-600 text-base py-2 px-4 rounded-md"
+    type="button"
+  />
+</div>
+`;
+
+exports[`Button > render correctly with buttonType prop 4`] = `
+<div>
+  <button
+    class="flex flex-row gap-x-4 disabled:cursor-not-allowed items-center justify-center bg-white text-gray-600 hover:bg-gray-100 border hover:border-gray-100 border-gray-300 hover:shadow-md text-base py-2 px-4 rounded-md"
+    type="button"
+  />
+</div>
+`;
+
+exports[`Button > render correctly with buttonType prop 5`] = `
+<div>
+  <button
+    class="flex flex-row gap-x-4 disabled:cursor-not-allowed items-center justify-center bg-black text-white border-black cursor-not-allowed text-base py-2 px-4 rounded-md"
+    type="button"
+  />
+</div>
+`;
+
+exports[`Button > render correctly with buttonType prop 6`] = `
+<div>
+  <button
+    class="flex flex-row gap-x-4 disabled:cursor-not-allowed items-center justify-center bg-red-500 text-white border-red-500 hover:bg-red-600 text-base py-2 px-4 rounded-md"
+    type="button"
+  />
+</div>
+`;
+
+exports[`Button > render correctly with rounded prop 1`] = `
+<div>
+  <button
+    class="flex flex-row gap-x-4 disabled:cursor-not-allowed items-center justify-center bg-violet-500 text-white border-violet-500 hover:bg-violet-600 text-base py-2 px-4 rounded-full"
+    type="button"
+  />
+</div>
+`;
+
+exports[`Button > render correctly with rounded prop 2`] = `
+<div>
+  <button
+    class="flex flex-row gap-x-4 disabled:cursor-not-allowed items-center justify-center bg-violet-500 text-white border-violet-500 hover:bg-violet-600 text-base py-2 px-4 rounded-lg"
+    type="button"
+  />
+</div>
+`;
+
+exports[`Button > render correctly with rounded prop 3`] = `
+<div>
+  <button
+    class="flex flex-row gap-x-4 disabled:cursor-not-allowed items-center justify-center bg-violet-500 text-white border-violet-500 hover:bg-violet-600 text-base py-2 px-4 rounded-none"
+    type="button"
+  />
+</div>
+`;
+
+exports[`Button > render correctly with rounded prop 4`] = `
+<div>
+  <button
+    class="flex flex-row gap-x-4 disabled:cursor-not-allowed items-center justify-center bg-violet-500 text-white border-violet-500 hover:bg-violet-600 text-base py-2 px-4 rounded-xl"
+    type="button"
+  />
+</div>
+`;
+
+exports[`Button > render correctly with rounded prop 5`] = `
+<div>
+  <button
+    class="flex flex-row gap-x-4 disabled:cursor-not-allowed items-center justify-center bg-violet-500 text-white border-violet-500 hover:bg-violet-600 text-base py-2 px-4 rounded-2xl"
+    type="button"
+  />
+</div>
+`;
+
+exports[`Button > render correctly with rounded prop 6`] = `
+<div>
+  <button
+    class="flex flex-row gap-x-4 disabled:cursor-not-allowed items-center justify-center bg-violet-500 text-white border-violet-500 hover:bg-violet-600 text-base py-2 px-4 rounded-md"
+    type="button"
+  />
+</div>
+`;
+
+exports[`Button > render correctly with rounded prop 7`] = `
+<div>
+  <button
+    class="flex flex-row gap-x-4 disabled:cursor-not-allowed items-center justify-center bg-violet-500 text-white border-violet-500 hover:bg-violet-600 text-base py-2 px-4 rounded-sm"
+    type="button"
+  />
+</div>
+`;
+
+exports[`Button > renders correctly with left icon 1`] = `
+<div>
+  <button
+    class="flex flex-row gap-x-4 disabled:cursor-not-allowed items-center justify-center bg-violet-500 text-white border-violet-500 hover:bg-violet-600 text-base py-2 px-4 rounded-md"
+    type="button"
+  >
+    <span>
+      👈
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Button > renders correctly with right icon 1`] = `
+<div>
+  <button
+    class="flex flex-row gap-x-4 disabled:cursor-not-allowed items-center justify-center bg-violet-500 text-white border-violet-500 hover:bg-violet-600 text-base py-2 px-4 rounded-md"
+    type="button"
+  >
+    <span>
+      👉
+    </span>
+  </button>
+</div>
+`;

@@ -1,0 +1,107 @@
+{
+  "license": "MIT",
+  "author": {
+    "name": "Serif Colakel",
+    "email": "serifcolakel0@gmail.com"
+  },
+  "description": "UI Components with React & Typescript with TailwindCSS",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./package.json": "./package.json",
+    "./dist/*": "./dist/*"
+  },
+  "files": [
+    "/dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "readme": "README.md",
+  "name": "serif-ui-components",
+  "private": false,
+  "version": "0.0.12",
+  "type": "module",
+  "keywords": [
+    "react",
+    "typescript",
+    "tailwindcss",
+    "ui",
+    "components",
+    "chromatic",
+    "storybook",
+    "vite",
+    "vite-plugin-dts",
+    "vitest",
+    "eslint",
+    "prettier",
+    "husky"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "release": "bash ./scripts/release.sh",
+    "build": "tsc && vite build && npm run tailwind",
+    "tailwind": "npx tailwindcss -o ./dist/index.css --minify",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "test": "vitest",
+    "prepare": "husky install",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.6.1",
+    "clsx": "^1.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^1.13.2"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.27",
+    "@storybook/addon-interactions": "^7.0.27",
+    "@storybook/addon-links": "^7.0.27",
+    "@storybook/blocks": "^7.0.27",
+    "@storybook/builder-vite": "^7.0.27",
+    "@storybook/react": "^7.0.27",
+    "@storybook/react-vite": "^7.0.27",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@tailwindcss/forms": "^0.5.4",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.1",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.45.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.1",
+    "eslint-plugin-storybook": "^0.6.12",
+    "husky": "^8.0.0",
+    "jsdom": "^22.1.0",
+    "lint-staged": "^13.2.3",
+    "postcss": "^8.4.26",
+    "prettier": "^3.0.0",
+    "prop-types": "^15.8.1",
+    "storybook": "^7.0.27",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.0",
+    "vite-plugin-dts": "^3.3.0",
+    "vitest": "^0.33.0"
+  }
+}
