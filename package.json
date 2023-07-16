@@ -107,5 +107,9 @@
     "vite": "^4.4.0",
     "vite-plugin-dts": "^3.3.0",
     "vitest": "^0.33.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/serifcolakel/serif-ui-components/issues"
+  },
+  "homepage": "https://github.com/serifcolakel/serif-ui-components#readme"
 }
