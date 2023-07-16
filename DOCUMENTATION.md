@@ -37,7 +37,7 @@ npm i
 npm run dev
 ```
 
-# Adding the Tailwind CSS
+# Add the Tailwind CSS
 
 **You can follow these steps:**
 
@@ -69,7 +69,7 @@ export default {
 @tailwind utilities;
 ```
 
-- Adding `@tailwindcss/forms` plugin in `tailwind.config.js` file :
+- Add `@tailwindcss/forms` plugin in `tailwind.config.js` file :
 
 ```tsx
 /** @type {import('tailwindcss').Config} */
@@ -92,7 +92,7 @@ export default function App() {
 }
 ```
 
-# Adding the Eslint, Airbnb Configuration
+# Add the Eslint, Airbnb Configuration
 
 **You can follow these steps:,**
 
@@ -219,7 +219,7 @@ rules: {
 }
 ```
 
-# Adding Prettier Configuration
+# Add Prettier Configuration
 
 **You can follow these steps:,**
 
@@ -269,7 +269,7 @@ extends: [
 
 - Reload the VS CODE window for setup initializing.
 
-# Adding Husky Configuration
+# Add Husky Configuration
 
 **You can follow these steps:,**
 
@@ -332,7 +332,7 @@ git commit -m 'TEST (serif) : eslint & husky configuration test.'
 husky - pre-commit hook exited with code 1 (error)
 ```
 
-# Adding Vitest Configuration
+# Add Vitest Configuration
 
 **You can follow these steps:,**
 
@@ -450,7 +450,7 @@ npm run test # add this line
 npm run lint
 ```
 
-# Adding Storybook
+# Add Storybook
 
 **You can follow these steps:** [reference](https://storybook.js.org/docs/react/builders/vite)
 
@@ -851,7 +851,7 @@ npm run storybook
 
 # Publish to NPM 📦
 
-- Adding the `components` in the root level `index.ts` file. Add the following code in the `index.ts` file.
+- Add the `components` in the root level `index.ts` file. Add the following code in the `index.ts` file.
 
 ```ts
 export { default as Button } from './src/components/button/Button';
@@ -1003,17 +1003,13 @@ export default defineConfig({
 }
 ```
 
+Congratulations 🎉 You have published your first `npm` package.
+
 # Publish to Chromatic 🎨
 
 In this section, we will publish the `storybook` project to the `Chromatic`. [reference](https://www.youtube.com/watch?v=2tqRpBcV8ug)
 
 - Create a new account on [Chromatic](https://www.chromatic.com/).
-
-- Create a `.env` file in the root directory and add the `CHROMATIC_PROJECT_TOKEN` variable.
-
-```env
-CHROMATIC_PROJECT_TOKEN=your_chromatic_project_token
-```
 
 - First build the `storybook` project. Run the following command on terminal.
 
@@ -1029,6 +1025,18 @@ npx http-server ./storybook-static
 
 - Publish to Github.
 
+> * In this section, push to the `Github` repository.
+
+- Create project on the `Chromatic` and copy the `project token`.
+
+> * Reference : [Chromatic](https://www.chromatic.com/)
+
+- Create a `.env` file in the root directory and add the `CHROMATIC_PROJECT_TOKEN` variable.
+
+```env
+CHROMATIC_PROJECT_TOKEN=your_chromatic_project_token
+```
+
 - Add the `chromatic` script in the `package.json` file.
 
 ```json
@@ -1040,9 +1048,17 @@ npx http-server ./storybook-static
 }
 ```
 
-- Run the `chromatic` script on terminal.
+- Install the `chromatic` package as a dev dependency. Run the following command on terminal.
+
+```bash
+npm install --save-dev chromatic
+```
+
+- Publish to Storybook to `Chromatic`. Run the following command on terminal.
 
 ```bash
 npm run chromatic
 ```
+
+Congratulations 🎉 You have published your first `storybook` project to the `Chromatic`.
 

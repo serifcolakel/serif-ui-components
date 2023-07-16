@@ -2,7 +2,7 @@
 
 * **serif-ui-components** is a component library with React, Typescript and Tailwind CSS.
 
-## See the full documentation
+## See the Full Documentation
 
 * [Documentation Link](https://github.com/serifcolakel/serif-ui-components/blob/main/DOCUMENTATION.md)
 
@@ -36,7 +36,7 @@ const App = () => {
 
 ## See All Components in Chromatic
 
-* [Components Link](https://www.chromatic.com/builds?appId=5f9b0b0a7a3b0d0022b3b0b12)
+* [Components Link](https://64b3a5aefbe2fe6df3fbcf12-jqpiroqtxc.chromatic.com/)
 
 ## Roadmap
 
